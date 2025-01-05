@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat ignition deploy ignition/modules/<module name>.module.ts --network <network name>",
+    "verify01": "npx hardhat verify --network <network name> 0x0000000000000000000000000000000000",
+    "verify02": "npx hardhat verify --network <network name> 0x0000000000000000000000000000000000",
+    "verify03": "npx hardhat verify --network <network name> 0x0000000000000000000000000000000000"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.1.0",
+    "dotenv": "^16.4.7",
+    "hardhat": "^2.22.17"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0"
+  }
+}
